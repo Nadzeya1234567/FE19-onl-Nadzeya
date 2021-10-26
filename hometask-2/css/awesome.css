@@ -1,5 +1,6 @@
 .awesome {
   background-color: #e5e5e5;
+  padding: 50px 0 58px;
 }
 .container {
   max-width: 1170px;
@@ -94,9 +95,10 @@
 .awesome-item-text {
   width: 370px;
   padding: 0 10px;
-  margin-bottom: 58px;
+  /* margin-bottom: 58px; */
 }
 .awesome-item-text p {
   font-size: 18px;
   color: #000000;
+  text-align: center;
 }
