@@ -1,0 +1,46 @@
+@import url("../css/awesome.css");
+@import url("../css/pricing.css");
+@import url("../import-cdn.css");
+
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+.container {
+  max-width: 1170px;
+  margin: auto;
+  padding: 0 15px;
+}
+.title {
+  width: 409px;
+  font-size: 36px;
+  color: #212121;
+  margin: auto;
+  text-align: center;
+  font-family: "Raleway";
+  text-transform: uppercase;
+  font-weight: 400;
+  line-height: 42px;
+  font-style: normal;
+  margin-bottom: 34px;
+}
+.line {
+  width: 64px;
+  height: 1px;
+  background-color: #e72424;
+  margin: auto;
+  margin-bottom: 34px;
+}
+.description {
+  width: 480px;
+  margin: auto;
+  margin-bottom: 68px;
+}
+.description p {
+  font-size: 14px;
+  color: #86878b;
+  text-align: center;
+}
