@@ -16,7 +16,6 @@
   top: 0;
   left: 0;
   background-color: rgba(0, 0, 0, 0.55);
-  z-index: 1;
 }
 
 .axure-title {
@@ -31,8 +30,6 @@
   line-height: 42px;
   font-style: normal;
   margin-bottom: 34px;
-  position: relative;
-  z-index: 2;
 }
 .axure-title::after {
   content: "";
@@ -46,8 +43,6 @@
   max-width: 800px;
   margin: auto;
   margin-bottom: 68px;
-  position: relative;
-  z-index: 2;
 }
 .axure-description p {
   font-size: 16px;
@@ -56,4 +51,37 @@
   line-height: 19px;
   font-family: "Raleway";
   font-weight: 300;
+}
+.axure-download {
+  color: #fff;
+  display: block;
+  width: 135px;
+  height: 42px;
+  margin: auto;
+
+  font-size: 15px;
+  line-height: 42px;
+  border: 1px solid #fff;
+  text-align: center;
+
+  position: relative;
+  animation-name: download;
+  animation-duration: 0.5s;
+  animation-timing-function: ease-in;
+  animation-iteration-count: infinite;
+}
+.axure-download:hover {
+  color: rgb(22, 21, 21);
+  background-color: rgb(224, 98, 7);
+}
+@keyframes download {
+  0% {
+    left: 0;
+  }
+  50% {
+    transform: scale(1.5);
+  }
+  100% {
+    left: 0;
+  }
 }

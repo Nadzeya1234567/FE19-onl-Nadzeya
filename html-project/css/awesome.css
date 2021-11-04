@@ -24,6 +24,46 @@
   align-items: center;
 }
 
+.awesome-item-lamp::before {
+  content: "\f0eb";
+  font-family: "Font Awesome 6 Free";
+  font-size: 30px;
+  font-weight: 600;
+  display: block;
+  color: orange;
+  transition: 0.3s;
+}
+.awesome-item-lamp:hover::before {
+  transform: scale(2);
+  color: violet;
+}
+
+.awesome-item-keyboard::before {
+  content: "\f11c";
+  font-family: "Font Awesome 6 Free";
+  font-size: 30px;
+  font-weight: 600;
+  display: block;
+  color: orange;
+  transition: 0.3s;
+}
+.awesome-item-keyboard:hover::before {
+  transform: scale(2);
+  color: violet;
+}
+.awesome-item-lightning::before {
+  content: "\f0e7";
+  font-family: "Font Awesome 6 Free";
+  font-size: 30px;
+  font-weight: 600;
+  display: block;
+  color: orange;
+  transition: 0.3s;
+}
+.awesome-item-lightning:hover::before {
+  transform: scale(2);
+  color: violet;
+}
 .awesome-item-title {
   font-size: 20px;
   color: #333333;

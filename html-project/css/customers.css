@@ -17,6 +17,7 @@
   position: relative;
   margin-bottom: 22px;
   padding: 8px 23px;
+  border-radius: 5px;
 }
 .customers-item__text::after {
   content: "";
@@ -26,7 +27,7 @@
   border-right: 15px solid transparent;
   border-top: 16px solid #e2e2e2;
   position: absolute;
-  top: 110px;
+  top: 100%;
   left: 40px;
   display: block;
 }
@@ -42,27 +43,36 @@
   justify-content: space-around;
 }
 .customers-person__image {
-}
-.customers-person__image img {
   width: 70px;
   height: 70px;
+  overflow: hidden;
   border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.customers-person__image img {
+  width: 100%;
 }
 .customers-person__position {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
 }
 .position__name {
-  text-align: right;
   font-size: 20px;
   line-height: 27px;
   font-weight: 700;
   color: #333333;
+  display: block;
+
   margin-bottom: 12px;
 }
 
 .position__job {
-  text-align: right;
   font-size: 14px;
   line-height: 19px;
   color: #86878b;
   font-weight: 400;
+  display: block;
 }

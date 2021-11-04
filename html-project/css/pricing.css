@@ -11,6 +11,12 @@
 .pricing-list {
   width: 340px;
   margin: 0 15px;
+  transition: 0.2s;
+}
+
+.pricing-list:hover {
+  transform: translate(0, -20px);
+  box-shadow: 40px 0 20px 20px rgba(221, 187, 175, 0.5);
 }
 .pricing-list__item {
   line-height: 40px;
