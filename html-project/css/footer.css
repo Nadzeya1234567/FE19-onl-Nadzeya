@@ -2,17 +2,19 @@
   padding: 30px 0 15px;
   background-color: #000000;
 }
-.social-icons-footer {
+.footer-icons-list {
   width: 317px;
   margin: auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-wrap: wrap;
   margin-bottom: 18px;
 }
 .facebook-footer {
   font-size: 23px;
   color: #d6d0d0;
+  transition: 0.3s;
 }
 .facebook-footer:hover {
   color: rgb(70, 70, 235);
@@ -20,6 +22,7 @@
 .twitter-footer {
   font-size: 23px;
   color: #d6d0d0;
+  transition: 0.3s;
 }
 .twitter-footer:hover {
   color: rgb(0, 183, 255);
@@ -27,6 +30,7 @@
 .google-footer {
   font-size: 23px;
   color: #d6d0d0;
+  transition: 0.3s;
 }
 .google-footer:hover {
   color: rgb(250, 64, 64);
@@ -34,6 +38,7 @@
 .pinterest-footer {
   font-size: 23px;
   color: #d6d0d0;
+  transition: 0.3s;
 }
 .pinterest-footer:hover {
   color: rgb(240, 46, 32);
@@ -41,6 +46,7 @@
 .instagram-footer {
   font-size: 23px;
   color: #d6d0d0;
+  transition: 0.3s;
 }
 .instagram-footer:hover {
   color: rgb(184, 8, 184);
@@ -49,6 +55,7 @@
 .stumbleupon-footer {
   font-size: 23px;
   color: #d6d0d0;
+  transition: 0.3s;
 }
 .stumbleupon-footer:hover {
   color: coral;
@@ -56,6 +63,7 @@
 .rss-footer {
   font-size: 23px;
   color: #d6d0d0;
+  transition: 0.3s;
 }
 .rss-footer:hover {
   color: orange;

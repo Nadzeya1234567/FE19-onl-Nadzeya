@@ -1,0 +1,66 @@
+.contact-form {
+}
+.contact-form-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  margin: 23px -20px 69px;
+}
+.contact-form-left {
+  margin: 0 20px;
+  width: 478px;
+}
+.contact-form-right {
+  margin: 0 20px;
+  width: 478px;
+}
+.contact-form-content input {
+  outline: none;
+  border: 0;
+  border-bottom: 1px solid rgb(177, 174, 174);
+  display: block;
+  margin: auto;
+  width: 100%;
+}
+
+.contact-form-content label {
+  display: block;
+  color: rgb(177, 174, 174);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+}
+
+.contact-form-name label {
+  margin-bottom: 32px;
+}
+.contact-form-name input {
+  margin-bottom: 32px;
+}
+.contact-form-email label {
+  margin-bottom: 32px;
+}
+.contact-form-email input {
+  margin-bottom: 32px;
+}
+.contact-form-password label {
+  margin-bottom: 46px;
+}
+
+.contact-form-message label {
+  margin-bottom: 244px;
+}
+.contact-form-button {
+  width: 166px;
+  height: 42;
+  background-color: #ec7979;
+  color: #fff;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 20px;
+  padding: 11px 0;
+  display: block;
+  border: 0;
+  margin: auto;
+}

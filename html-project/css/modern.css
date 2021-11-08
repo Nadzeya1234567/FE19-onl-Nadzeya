@@ -1,0 +1,133 @@
+.modern {
+  background-image: url(../img/bg/bg-modern.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+.modern::after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.25);
+}
+.modern-wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 0 -15px;
+}
+.modern-item {
+  max-width: 544px;
+  margin: 0 15px;
+}
+.modern-logo {
+  font-size: 60px;
+  line-height: 70px;
+  color: #fff;
+  margin-bottom: 32px;
+}
+.modern-logo::after {
+  content: "IT";
+  font-size: 60px;
+  color: rgb(250, 125, 125);
+}
+.modern-title {
+  font-family: "Raleway";
+  font-weight: 400;
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 36px;
+  line-height: 42px;
+  margin-bottom: 39px;
+}
+.modern-title::after {
+  content: "";
+  width: 64px;
+  height: 1px;
+  background-color: rgb(165, 161, 161);
+  display: block;
+
+  margin-top: 32px;
+}
+.modern-description {
+  width: 280px;
+  color: rgb(165, 161, 161);
+  margin-bottom: 50px;
+}
+.modern-download {
+  width: 135px;
+  height: 42px;
+  border: 1px solid #fff;
+  display: block;
+  color: #fff;
+  font-size: 15px;
+  line-height: 20px;
+  text-align: center;
+  padding: 11px 0;
+}
+.modern-form {
+  width: 370px;
+  height: 370px;
+  border-radius: 5px;
+  background-color: #fff;
+  overflow: hidden;
+  margin: 0 15px;
+}
+.modern-form-content {
+  padding: 15px 59px 0;
+}
+.modern-form-content label {
+  display: block;
+  color: rgb(177, 174, 174);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+}
+.modern-form-content input {
+  outline: none;
+  border: 0;
+  border-bottom: 1px solid rgb(177, 174, 174);
+  width: 252px;
+  display: block;
+  margin: auto;
+}
+.modern-form-title {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 27px;
+  text-transform: capitalize;
+  margin-bottom: 54px;
+  color: rgb(41, 40, 40);
+}
+.modern-form-title span {
+  text-transform: uppercase;
+  color: #ec7979;
+}
+.modern-form-name {
+  margin-bottom: 30px;
+}
+.modern-form-email {
+  margin-bottom: 30px;
+}
+.modern-form-password {
+  margin-bottom: 59px;
+}
+.modern-button {
+  width: 100%;
+  display: block;
+  padding: 15px 0;
+  color: #fff;
+  border: 0;
+  background-color: #ec7979;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 20px;
+  text-transform: capitalize;
+  margin-bottom: 0;
+}

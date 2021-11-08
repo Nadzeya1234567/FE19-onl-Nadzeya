@@ -1,13 +1,17 @@
 .social {
   background-color: #f8efef;
-  padding: 18px 111px;
+  padding: 18px 0;
 }
 .social-wrap {
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 0 -15px;
 }
 .social-item {
   width: 365px;
+  margin: 0 15px;
 }
 
 .social-title {
@@ -29,10 +33,12 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin: 0 15px;
 }
 .facebook {
   font-size: 42px;
   color: #d6d0d0;
+  transition: 0.5s;
 }
 .facebook:hover {
   color: rgb(70, 70, 235);
@@ -40,6 +46,7 @@
 .twitter {
   font-size: 42px;
   color: #d6d0d0;
+  transition: 0.5s;
 }
 .twitter:hover {
   color: rgb(0, 183, 255);
@@ -47,6 +54,7 @@
 .google {
   font-size: 42px;
   color: #d6d0d0;
+  transition: 0.5s;
 }
 .google:hover {
   color: rgb(250, 64, 64);
@@ -54,6 +62,7 @@
 .pinterest {
   font-size: 42px;
   color: #d6d0d0;
+  transition: 0.5s;
 }
 .pinterest:hover {
   color: rgb(240, 46, 32);
@@ -61,6 +70,7 @@
 .instagram {
   font-size: 42px;
   color: #d6d0d0;
+  transition: 0.5s;
 }
 .instagram:hover {
   color: rgb(184, 8, 184);
@@ -69,6 +79,7 @@
 .stumbleupon {
   font-size: 42px;
   color: #d6d0d0;
+  transition: 0.5s;
 }
 .stumbleupon:hover {
   color: coral;
@@ -76,6 +87,7 @@
 .rss {
   font-size: 42px;
   color: #d6d0d0;
+  transition: 0.5s;
 }
 .rss:hover {
   color: rgb(14, 13, 13);

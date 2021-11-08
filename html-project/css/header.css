@@ -1,36 +1,47 @@
 .header {
   background-color: #000000;
-  padding: 20px 110px;
+  padding: 20px 0;
 }
 
-.menu {
+.header-wrap {
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 0 -15px;
 }
-.logo {
+.header-logo {
   color: #fff;
   font-family: "Raleway";
   font-weight: 400;
   font-size: 30px;
   line-height: 35px;
+  margin: 0 15px;
 }
 
-.logo::after {
+.header-logo::after {
   content: "IT";
   font-size: 30px;
   color: rgb(250, 125, 125);
 }
-.navigation {
+.header-navigation {
   width: 500px;
+
+  margin: 0 15px;
+}
+.header-navigation-list {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 .navigation__item {
   color: rgb(156, 153, 153);
-  vertical-align: middle;
   font-weight: 600;
   font-size: 15px;
   line-height: 20px;
+  padding: 3px;
+  border-left: 3px solid transparent;
+  border-bottom: 3px solid transparent;
   transition: 0.3s;
 }
 .navigation__item:hover {
