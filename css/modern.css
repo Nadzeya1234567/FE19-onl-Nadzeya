@@ -80,10 +80,12 @@
   margin: 0 15px;
 }
 .modern-form-content {
-  padding: 15px 59px 0;
+  padding: 15px 15px 0;
 }
 .modern-form-content label {
   display: block;
+  width: 252px;
+  margin: auto;
   color: rgb(177, 174, 174);
   font-weight: 400;
   font-size: 14px;
@@ -97,25 +99,26 @@
   display: block;
   margin: auto;
 }
-.modern-form-title {
+.modern-form__title {
   font-weight: 700;
   font-size: 20px;
   line-height: 27px;
   text-transform: capitalize;
   margin-bottom: 54px;
   color: rgb(41, 40, 40);
+  text-align: center;
 }
-.modern-form-title span {
+.modern-form__title span {
   text-transform: uppercase;
   color: #ec7979;
 }
-.modern-form-name {
+.modern-form__name {
   margin-bottom: 30px;
 }
-.modern-form-email {
+.modern-form__email {
   margin-bottom: 30px;
 }
-.modern-form-password {
+.modern-form__password {
   margin-bottom: 59px;
 }
 .modern-button {
@@ -130,4 +133,5 @@
   line-height: 20px;
   text-transform: capitalize;
   margin-bottom: 0;
+  cursor: pointer;
 }

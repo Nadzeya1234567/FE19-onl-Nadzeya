@@ -31,7 +31,7 @@
   font-weight: 600;
   display: block;
   color: orange;
-  transition: 0.3s;
+  transition: 0.5s;
 }
 .awesome-item-lamp:hover::before {
   transform: scale(2);
@@ -45,7 +45,7 @@
   font-weight: 600;
   display: block;
   color: orange;
-  transition: 0.3s;
+  transition: 0.5s;
 }
 .awesome-item-keyboard:hover::before {
   transform: scale(2);
@@ -58,7 +58,7 @@
   font-weight: 600;
   display: block;
   color: orange;
-  transition: 0.3s;
+  transition: 0.5s;
 }
 .awesome-item-lightning:hover::before {
   transform: scale(2);
