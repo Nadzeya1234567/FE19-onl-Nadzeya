@@ -5,15 +5,15 @@
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
-  margin: 23px -20px 69px;
+  margin: 23px -15px 69px;
 }
 .contact-form-left {
-  margin: 0 20px;
-  width: 478px;
+  margin: 0 15px;
+  width: 40%;
 }
 .contact-form-right {
-  margin: 0 20px;
-  width: 478px;
+  margin: 0 15px;
+  width: 40%;
 }
 .contact-form-content input {
   outline: none;
@@ -28,8 +28,8 @@
   display: block;
   color: rgb(177, 174, 174);
   font-weight: 400;
-  font-size: 14px;
-  line-height: 19px;
+  font-size: 0.88rem;
+  line-height: 1.19rem;
 }
 
 .contact-form__name label {
@@ -63,14 +63,13 @@
   margin: auto;
 }
 .contact-form-button {
-  width: 166px;
-  height: 42;
+  width: 11em;
   background-color: #ec7979;
   color: #fff;
   font-weight: 600;
-  font-size: 15px;
-  line-height: 20px;
-  padding: 11px 0;
+  font-size: 0.94rem;
+  line-height: 1.25rem;
+  padding: 0.75em 0;
   display: block;
   border: 0;
   margin: auto;

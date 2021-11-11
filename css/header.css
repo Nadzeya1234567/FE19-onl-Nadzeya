@@ -14,14 +14,14 @@
   color: #fff;
   font-family: "Raleway";
   font-weight: 400;
-  font-size: 30px;
-  line-height: 35px;
+  font-size: 1.88rem;
+  line-height: 2.19rem;
   margin: 0 15px;
 }
 
 .header-logo::after {
   content: "IT";
-  font-size: 30px;
+  font-size: 1.88rem;
   color: rgb(250, 125, 125);
 }
 .header-navigation {
@@ -37,8 +37,8 @@
 .navigation__item {
   color: rgb(156, 153, 153);
   font-weight: 600;
-  font-size: 15px;
-  line-height: 20px;
+  font-size: 1rem;
+  line-height: 1.25rem;
   padding: 3px;
   border-left: 3px solid transparent;
   border-bottom: 3px solid transparent;
@@ -47,4 +47,26 @@
 .navigation__item:hover {
   border-left: 3px solid yellow;
   border-bottom: 3px solid yellow;
+}
+
+@media (max-width: 1200px) {
+}
+
+@media (max-width: 992px) {
+}
+@media (max-width: 767px) {
+  .header {
+    padding: 15px 0;
+  }
+}
+@media (max-width: 687px) {
+  .header {
+    padding: 15px 0;
+  }
+  .header-logo {
+    margin-bottom: 10px;
+  }
+}
+
+@media (max-width: 468px) {
 }

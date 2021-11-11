@@ -27,14 +27,14 @@
   margin: 0 15px;
 }
 .modern-logo {
-  font-size: 60px;
-  line-height: 70px;
+  font-size: 3.7rem;
+
   color: #fff;
   margin-bottom: 32px;
 }
 .modern-logo::after {
   content: "IT";
-  font-size: 60px;
+  font-size: 3.7rem;
   color: rgb(250, 125, 125);
 }
 .modern-title {
@@ -42,8 +42,8 @@
   font-weight: 400;
   text-transform: uppercase;
   color: #fff;
-  font-size: 36px;
-  line-height: 42px;
+  font-size: 2.3rem;
+  line-height: 2.6rem;
   margin-bottom: 39px;
 }
 .modern-title::after {
@@ -62,25 +62,24 @@
 }
 .modern-download {
   width: 135px;
-  height: 42px;
+
   border: 1px solid #fff;
   display: block;
   color: #fff;
-  font-size: 15px;
-  line-height: 20px;
+  font-size: 1rem;
+  line-height: 1.25rem;
   text-align: center;
-  padding: 11px 0;
+  padding: 0.7em 0;
 }
 .modern-form {
   width: 370px;
-  height: 370px;
   border-radius: 5px;
   background-color: #fff;
   overflow: hidden;
   margin: 0 15px;
 }
 .modern-form-content {
-  padding: 15px 15px 0;
+  padding: 15px 50px 59px;
 }
 .modern-form-content label {
   display: block;
@@ -88,10 +87,11 @@
   margin: auto;
   color: rgb(177, 174, 174);
   font-weight: 400;
-  font-size: 14px;
-  line-height: 19px;
+  font-size: 0.9rem;
+  line-height: 1.18rem;
 }
 .modern-form-content input {
+  width: 100%;
   outline: none;
   border: 0;
   border-bottom: 1px solid rgb(177, 174, 174);
@@ -119,19 +119,69 @@
   margin-bottom: 30px;
 }
 .modern-form__password {
-  margin-bottom: 59px;
+  /* margin-bottom: 59px; */
 }
 .modern-button {
   width: 100%;
   display: block;
-  padding: 15px 0;
+  padding: 0.94em 0;
   color: #fff;
   border: 0;
   background-color: #ec7979;
   font-weight: 600;
-  font-size: 15px;
-  line-height: 20px;
+  font-size: 1rem;
+  line-height: 1.25rem;
   text-transform: capitalize;
   margin-bottom: 0;
   cursor: pointer;
+}
+
+@media (max-width: 1200px) {
+  .modern-item {
+    display: block;
+    margin: auto;
+  }
+}
+
+@media (max-width: 992px) {
+  .modern-item {
+    display: block;
+    margin: auto;
+    margin-bottom: 15px;
+    text-align: center;
+  }
+  .modern-form {
+    display: block;
+    margin: auto;
+  }
+  .modern-title {
+    display: block;
+    margin: auto;
+    margin-bottom: 15px;
+  }
+  .modern-title::after {
+    display: block;
+    margin: auto;
+    margin-top: 15px;
+  }
+  .modern-description {
+    display: block;
+    margin: auto;
+    margin-bottom: 15px;
+  }
+  .modern-download {
+    display: block;
+    margin: auto;
+  }
+}
+@media (max-width: 767px) {
+  .modern-form {
+    display: block;
+    margin: auto;
+  }
+}
+@media (max-width: 687px) {
+}
+
+@media (max-width: 468px) {
 }

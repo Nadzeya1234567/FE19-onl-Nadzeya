@@ -12,7 +12,7 @@
   margin-bottom: 18px;
 }
 .facebook-footer {
-  font-size: 23px;
+  font-size: 1.44rem;
   color: #d6d0d0;
   transition: 0.3s;
 }
@@ -20,7 +20,7 @@
   color: rgb(70, 70, 235);
 }
 .twitter-footer {
-  font-size: 23px;
+  font-size: 1.44rem;
   color: #d6d0d0;
   transition: 0.3s;
 }
@@ -28,7 +28,7 @@
   color: rgb(0, 183, 255);
 }
 .google-footer {
-  font-size: 23px;
+  font-size: 1.44rem;
   color: #d6d0d0;
   transition: 0.3s;
 }
@@ -36,7 +36,7 @@
   color: rgb(250, 64, 64);
 }
 .pinterest-footer {
-  font-size: 23px;
+  font-size: 1.44rem;
   color: #d6d0d0;
   transition: 0.3s;
 }
@@ -44,7 +44,7 @@
   color: rgb(240, 46, 32);
 }
 .instagram-footer {
-  font-size: 23px;
+  font-size: 1.44rem;
   color: #d6d0d0;
   transition: 0.3s;
 }
@@ -53,7 +53,7 @@
 }
 
 .stumbleupon-footer {
-  font-size: 23px;
+  font-size: 1.44rem;
   color: #d6d0d0;
   transition: 0.3s;
 }
@@ -61,7 +61,7 @@
   color: coral;
 }
 .rss-footer {
-  font-size: 23px;
+  font-size: 1.44rem;
   color: #d6d0d0;
   transition: 0.3s;
 }
@@ -74,8 +74,8 @@
 }
 .text-footer p {
   color: #928c8c;
-  font-size: 12px;
-  line-height: 16px;
+  font-size: 0.75rem;
+  line-height: 1rem;
   font-weight: 400;
   text-align: center;
   vertical-align: middle;
@@ -83,10 +83,27 @@
 .text-footer p::before {
   content: "\f1f9";
   font-family: "Font Awesome 6 Free";
-  font-size: 14px;
+  font-size: 0.88rem;
   font-weight: 600;
   color: #928c8c;
   display: inline-block;
   margin-right: 7px;
   vertical-align: middle;
+}
+
+@media (max-width: 1200px) {
+}
+
+@media (max-width: 992px) {
+}
+@media (max-width: 767px) {
+  .footer {
+    padding: 20px 0 15px;
+  }
+}
+
+@media (max-width: 687px) {
+}
+
+@media (max-width: 468px) {
 }

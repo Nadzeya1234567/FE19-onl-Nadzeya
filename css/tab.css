@@ -1,0 +1,119 @@
+.tab-top {
+}
+.tab-list {
+  display: flex;
+  justify-content: flex-start;
+}
+.tab-list__item {
+  width: 201px;
+  padding: 10px 0;
+  text-align: center;
+  font-size: 0.9rem;
+  line-height: 1.2rem;
+  text-transform: uppercase;
+  font-weight: 400;
+  color: #333333;
+}
+.tab-list__item:first-child {
+  border: 1px solid rgb(204, 199, 199);
+  border-radius: 5px 5px 0 0;
+  border-bottom: transparent;
+}
+
+.tab-wrap {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  border: 1px solid rgb(204, 199, 199);
+}
+
+.tab-left {
+  max-width: 550px;
+  padding: 50px 0 50px 80px;
+  margin: 0 15px 0 0;
+}
+.tab-title {
+  font-size: 1.8rem;
+  line-height: 2.6rem;
+  margin-bottom: 40px;
+}
+.tab-description {
+  margin-bottom: 50px;
+}
+.tab-description p {
+  font-size: 1.1rem;
+  line-height: 1.3rem;
+  font-family: "Raleway";
+  font-weight: 400;
+  color: #202020;
+  margin-bottom: 27px;
+}
+.tab-download {
+  width: 135px;
+  background-color: #ec7979;
+  color: #fff;
+  font-size: 1.1rem;
+  font-weight: 400;
+  text-align: center;
+  padding: 0.6em 2em;
+  cursor: pointer;
+}
+.tab-right {
+  max-width: 470px;
+  margin: 0 0 0 15px;
+}
+.tab-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+img {
+  width: 100%;
+}
+@media (max-width: 1200px) {
+  .tab-wrap {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  .tab-title {
+    text-align: center;
+  }
+  .tab-description {
+    text-align: center;
+  }
+  .tab-download {
+    width: 135px;
+    display: block;
+    margin: auto;
+    text-align: center;
+    padding: 0.6em 0;
+  }
+  .tab-left {
+    padding: 50px 0 50px 0;
+    margin: 0;
+  }
+  .tab-right {
+    margin: 0;
+  }
+}
+
+@media (max-width: 992px) {
+}
+@media (max-width: 767px) {
+  .tab-left {
+    padding: 35px 0 35px 0;
+  }
+  .tab-title {
+    margin-bottom: 30px;
+  }
+  .tab-description {
+    margin-bottom: 30px;
+  }
+}
+
+@media (max-width: 687px) {
+}
+
+@media (max-width: 468px) {
+}

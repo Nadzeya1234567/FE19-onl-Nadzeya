@@ -27,7 +27,7 @@
 .awesome-item-lamp::before {
   content: "\f0eb";
   font-family: "Font Awesome 6 Free";
-  font-size: 30px;
+  font-size: 1.88rem;
   font-weight: 600;
   display: block;
   color: orange;
@@ -41,7 +41,7 @@
 .awesome-item-keyboard::before {
   content: "\f11c";
   font-family: "Font Awesome 6 Free";
-  font-size: 30px;
+  font-size: 1.88rem;
   font-weight: 600;
   display: block;
   color: orange;
@@ -54,7 +54,7 @@
 .awesome-item-lightning::before {
   content: "\f0e7";
   font-family: "Font Awesome 6 Free";
-  font-size: 30px;
+  font-size: 1.88rem;
   font-weight: 600;
   display: block;
   color: orange;
@@ -65,23 +65,53 @@
   color: violet;
 }
 .awesome-item-title {
-  font-size: 20px;
+  font-size: 1.25rem;
   color: #333333;
   margin: auto;
   text-align: center;
   font-weight: 700;
   font-style: normal;
-  line-height: 27px;
+  line-height: 1.68rem;
   text-transform: capitalize;
   margin-bottom: 16px;
 }
 .awesome-item-text {
 }
 .awesome-item-text p {
-  font-size: 14px;
+  font-size: 0.88rem;
   color: #000000;
   text-align: center;
   font-weight: 400;
-  line-height: 19px;
+  line-height: 1.19rem;
   font-style: normal;
+}
+
+@media (max-width: 1200px) {
+  .awesome-wrap {
+    display: flex;
+    justify-content: space-around;
+  }
+}
+
+@media (max-width: 992px) {
+  .awesome-item {
+    margin-bottom: 25px;
+  }
+  .awesome-item:last-child {
+    margin-bottom: 0;
+  }
+  .awesome-item-image {
+    margin-bottom: 20px;
+  }
+}
+@media (max-width: 767px) {
+  .awesome-item-image {
+    width: 60px;
+    height: 60px;
+  }
+}
+@media (max-width: 687px) {
+}
+
+@media (max-width: 468px) {
 }

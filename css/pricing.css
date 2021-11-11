@@ -19,42 +19,68 @@
   box-shadow: 40px 0 20px 20px rgba(221, 187, 175, 0.5);
 }
 .pricing-list__item {
-  line-height: 40px;
+  line-height: 2.5rem;
   background-color: #ffffff;
   margin-bottom: 2px;
   text-align: center;
-  font-size: 14px;
+  font-size: 0.88rem;
   font-weight: 400;
   color: #86878b;
 }
 .pricing-list__item-tariff {
   background-color: #333333;
   color: #ffffff;
-  font-size: 20px;
+  font-size: 1.25rem;
   font-weight: 700;
   font-style: normal;
-  line-height: 50px;
+  line-height: 3.13rem;
   margin-bottom: 2px;
   text-align: center;
 }
 .pricing-list__item-price {
   background-color: #333333;
   color: #ffffff;
-  font-size: 35px;
+  font-size: 2.19rem;
   font-family: "Raleway";
   font-weight: 700;
   font-style: normal;
-  line-height: 100px;
+  line-height: 6.25rem;
   margin-bottom: 2px;
   text-align: center;
 }
 .pricing-list__item-free {
   background-color: #333333;
   color: #86878b;
-  font-size: 14px;
+  font-size: 0.88rem;
   font-weight: 600;
   font-style: normal;
-  line-height: 50px;
+  line-height: 3.13rem;
   margin-bottom: 2px;
   text-align: center;
+}
+@media (max-width: 1200px) {
+  .pricing-wrap {
+    display: flex;
+    justify-content: space-around;
+
+    flex-wrap: wrap;
+    margin: 0 -15px;
+  }
+  .pricing-list:last-child {
+    margin-top: 20px;
+  }
+}
+
+@media (max-width: 992px) {
+}
+@media (max-width: 767px) {
+  .pricing-list:nth-child(2) {
+    margin-top: 20px;
+  }
+}
+
+@media (max-width: 687px) {
+}
+
+@media (max-width: 468px) {
 }
