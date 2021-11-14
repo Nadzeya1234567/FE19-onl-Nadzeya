@@ -42,7 +42,7 @@
   font-weight: 400;
   text-transform: uppercase;
   color: #fff;
-  font-size: 2.3rem;
+  font-size: 2.2rem;
   line-height: 2.6rem;
   margin-bottom: 39px;
 }
@@ -56,7 +56,7 @@
   margin-top: 32px;
 }
 .modern-description {
-  width: 280px;
+  max-width: 280px;
   color: rgb(165, 161, 161);
   margin-bottom: 50px;
 }
@@ -95,7 +95,6 @@
   outline: none;
   border: 0;
   border-bottom: 1px solid rgb(177, 174, 174);
-  width: 252px;
   display: block;
   margin: auto;
 }
@@ -119,7 +118,6 @@
   margin-bottom: 30px;
 }
 .modern-form__password {
-  /* margin-bottom: 59px; */
 }
 .modern-button {
   width: 100%;
@@ -145,43 +143,52 @@
 
 @media (max-width: 992px) {
   .modern-item {
-    display: block;
-    margin: auto;
-    margin-bottom: 15px;
-    text-align: center;
+    max-width: 400px;
   }
   .modern-form {
-    display: block;
-    margin: auto;
+    width: 300px;
   }
-  .modern-title {
-    display: block;
-    margin: auto;
-    margin-bottom: 15px;
+  .modern-form-content {
+    padding: 15px 30px 40px;
   }
-  .modern-title::after {
-    display: block;
-    margin: auto;
-    margin-top: 15px;
-  }
-  .modern-description {
-    display: block;
-    margin: auto;
-    margin-bottom: 15px;
-  }
-  .modern-download {
-    display: block;
-    margin: auto;
-  }
-}
-@media (max-width: 767px) {
-  .modern-form {
-    display: block;
-    margin: auto;
+
+  @media (max-width: 767px) {
+    .modern-item {
+      display: block;
+      margin: auto;
+      margin-bottom: 15px;
+      text-align: center;
+    }
+    .modern-form {
+      display: block;
+      margin: auto;
+    }
+    .modern-title {
+      display: block;
+      margin: auto;
+      margin-bottom: 15px;
+    }
+    .modern-title::after {
+      display: block;
+      margin: auto;
+      margin-top: 15px;
+    }
+    .modern-description {
+      display: block;
+      margin: auto;
+      margin-bottom: 15px;
+    }
+    .modern-download {
+      display: block;
+      margin: auto;
+    }
   }
 }
 @media (max-width: 687px) {
 }
 
-@media (max-width: 468px) {
+@media (max-width: 420px) {
+  .modern-item {
+    max-width: 300px;
+  }
 }

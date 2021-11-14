@@ -13,11 +13,13 @@
   text-transform: uppercase;
   font-weight: 400;
   color: #333333;
+  margin-bottom: -1px;
 }
 .tab-list__item:first-child {
   border: 1px solid rgb(204, 199, 199);
   border-radius: 5px 5px 0 0;
   border-bottom: transparent;
+  background-color: #fff;
 }
 
 .tab-wrap {
@@ -25,6 +27,7 @@
   justify-content: space-between;
   flex-wrap: wrap;
   border: 1px solid rgb(204, 199, 199);
+  background-color: #fff;
 }
 
 .tab-left {
@@ -116,4 +119,7 @@ img {
 }
 
 @media (max-width: 468px) {
+  .tab-image {
+    display: none;
+  }
 }

@@ -106,4 +106,25 @@
 }
 
 @media (max-width: 468px) {
+  .footer-icons-list {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 18px;
+  }
+}
+
+@media (max-width: 368px) {
+  .footer-icons-list {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 18px;
+  }
 }

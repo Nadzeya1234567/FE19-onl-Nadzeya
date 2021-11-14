@@ -10,7 +10,7 @@
   margin: 0 -15px;
 }
 .social-item {
-  width: 365px;
+  max-width: 365px;
   margin: 0 15px;
 }
 
@@ -33,6 +33,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+
   margin: 0 15px;
 }
 .facebook {
@@ -116,5 +117,12 @@
 @media (max-width: 687px) {
 }
 
-@media (max-width: 468px) {
+@media (max-width: 350px) {
+  .social-icons {
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  .social-icons li a {
+    margin: 0 10px;
+  }
 }

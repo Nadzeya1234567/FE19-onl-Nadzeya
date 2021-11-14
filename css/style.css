@@ -108,3 +108,11 @@ section {
     padding: 40px 0;
   }
 }
+@media (max-width: 320px) {
+  html {
+    font-size: 12px;
+  }
+  .container {
+    max-width: 100%;
+  }
+}
