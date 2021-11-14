@@ -22,6 +22,10 @@
   display: block;
   margin: auto;
   width: 100%;
+  margin-bottom: 32px;
+}
+.contact-form__password input {
+  margin-bottom: 0;
 }
 
 .contact-form-content label {
@@ -30,29 +34,12 @@
   font-weight: 400;
   font-size: 0.88rem;
   line-height: 1.19rem;
+  margin-bottom: 25px;
 }
 
-.contact-form__name label {
-  margin-bottom: 30px;
-}
-.contact-form__name input {
-  margin-bottom: 32px;
-}
-.contact-form__email label {
-  margin-bottom: 32px;
-}
-.contact-form__email input {
-  margin-bottom: 32px;
-}
-.contact-form__password label {
-  margin-bottom: 47px;
-}
-.contact-form__message label {
-  margin-bottom: 47px;
-}
 .contact-form__message textarea {
   width: 100%;
-  height: 204px;
+  height: 200px;
   resize: none;
   outline: none;
   border-left: transparent;
@@ -81,8 +68,14 @@
 }
 
 @media (max-width: 992px) {
+  .contact-form__message textarea {
+    height: 195px;
+  }
 }
-@media (max-width: 728px) {
+@media (max-width: 767px) {
+  .contact-form__message textarea {
+    height: 192px;
+  }
 }
 
 @media (max-width: 687px) {
@@ -97,6 +90,15 @@
     margin: auto;
 
     width: 70%;
+  }
+  .contact-form-content label {
+    margin-bottom: 15px;
+  }
+  .contact-form-content input {
+    margin-bottom: 25px;
+  }
+  .contact-form__message textarea {
+    height: 150px;
   }
 }
 
